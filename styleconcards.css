@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif; /* Estilo de fuente para el cuerpo del documento */
+  margin: 20px; /* Margen exterior del cuerpo del documento */
+  padding: 0; /* Espaciado interior del cuerpo del documento */
+}
+
+.container {
+  max-width: 800px; /* Anchura máxima del contenedor principal */
+  margin: 0 auto; /* Centrar el contenedor en la página */
+}
+
+h1 {
+  color: #333; /* Color del texto del encabezado principal */
+}
+
+h2 {
+  color: #555; /* Color del texto de los subtítulos */
+}
+
+ul, ol {
+  color: #777; /* Color del texto de las listas desordenadas y ordenadas */
+  margin-left: 20px; /* Margen izquierdo para listas */
+}
+
+li {
+  margin-bottom: 10px; /* Espaciado entre elementos de lista */
+}
+
+p {
+  color: #ffffff; /* Color del texto de los párrafos */
+}
+
+.section {
+  margin-bottom: 20px; /* Espaciado entre secciones */
+}
+
+footer {
+  background-color: #333; /* Color de fondo del pie de página */
+  color: #ffffff; /* Color del texto del pie de página */
+  text-align: center; /* Alineación del texto en el pie de página */
+  padding: 20px 0; /* Espaciado interior del pie de página */
+}
+
+.footer-content {
+  max-width: 1200px; /* Anchura máxima del contenido del pie de página */
+  margin: 0 auto; /* Centrar el contenido del pie de página */
+  color: #ffffff; /* Color del texto del contenido del pie de página */
+}
+
+.contenedor {
+  width: 100%; /* Anchura completa del contenedor */
+  display: flex; /* Utilizar el modelo de caja flexible para los elementos secundarios */
+  max-width: 1100px; /* Anchura máxima del contenedor */
+}
+
+.card {
+  width: 100%; /* Anchura completa de la tarjeta */
+  margin:30px; /* Margen exterior de la tarjeta */
+  padding: 10px; /* Espaciado interior de la tarjeta */
+  border-radius: 15px; /* Radio de borde de la tarjeta */
+  overflow: hidden; /* Ocultar el contenido que excede los límites de la tarjeta */
+  background: rgb(238, 255, 145); /* Color de fondo de la tarjeta */
+  box-shadow: 1px 3px 15px rgba(0,0,0,0.2); /* Sombra de la tarjeta */
+  cursor: default; /* Cursor predeterminado */
+  transition: all 400ms ease; /* Transición para efectos */
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); /* Sombra de la tarjeta al pasar el cursor */
+  transform: translateY(-5%); /* Transformación de la tarjeta al pasar el cursor */
+}
+
+.card img {
+  border-radius: 5px; /* Radio de borde de la imagen de la tarjeta */
+  box-shadow: 1px 3px 15px rgba(0,0,0,0.4); /* Sombra de la imagen de la tarjeta */
+  width: 100%; /* Anchura completa de la imagen de la tarjeta */
+  height: 100px; /* Altura de la imagen de la tarjeta */
+}
+
+.card .contenido {
+  padding: 15px; /* Espaciado interior del contenido de la tarjeta */
+  text-align: center; /* Alineación del texto del contenido de la tarjeta */
+}
+
+.card .contenido p {
+  line-height: 1.3; /* Altura de línea del párrafo del contenido de la tarjeta */
+  color: wh; /* Color del texto del párrafo del contenido de la tarjeta (posiblemente un error, debería ser 'color: #ffffff') */
+  margin-bottom: 25px; /* Margen inferior del párrafo del contenido de la tarjeta */
+}
+
+.card .contenido h3 {
+  font-weight: 400; /* Grosor de la fuente del título del contenido de la tarjeta */
+  margin-bottom: 15px; /* Margen inferior del título del contenido de la tarjeta */
+}
+
+.card .contenido a {
+  margin-bottom: 15px; /* Margen inferior del enlace del contenido de la tarjeta */
+  text-decoration: none; /* Sin decoración de enlace */
+  padding: 10px; /* Relleno del enlace del contenido de la tarjeta */
+  margin-top: 10px; /* Margen superior del enlace del contenido de la tarjeta */
+  color:rgb(0,0,0); /* Color del texto del enlace del contenido de la tarjeta */
+  border: 1px solid rgb(0,0,0); /* Borde del enlace del contenido de la tarjeta */
+  border-radius: 5px; /* Radio de borde del enlace del contenido de la tarjeta */
+  transition: all 400ms ease; /* Transición para efectos */
+}
+
+.card .contenido a:hover {
+  background-color: rgb(0, 0, 0); /* Color de fondo del enlace del contenido de la tarjeta al pasar el cursor */
+  color: rgb(0,0,0); /* Color del texto del enlace del contenido de la tarjeta al pasar el cursor */
+}
+
+
+  /*David Rey Sanchez*/
