@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif; /* Estilo de fuente para el cuerpo del documento */
+  margin: 20px; /* Margen exterior del cuerpo del documento */
+  padding: 0; /* Espaciado interior del cuerpo del documento */
+}
+
+.container {
+  max-width: 800px; /* Anchura máxima del contenedor principal */
+  margin: 0 auto; /* Centrar el contenedor en la página */
+}
+
+h1 {
+  color: #333; /* Color del texto del encabezado principal */
+}
+
+h2 {
+  color: #555; /* Color del texto de los subtítulos */
+}
+
+ul, ol {
+  color: #777; /* Color del texto de las listas desordenadas y ordenadas */
+  margin-left: 20px; /* Margen izquierdo para listas */
+}
+
+li {
+  margin-bottom: 10px; /* Espaciado entre elementos de lista */
+}
+
+p {
+  color: #000000; /* Color del texto de los párrafos */
+}
+
+.section {
+  margin-bottom: 20px; /* Espaciado entre secciones */
+}
+
+footer {
+  background-color: #333; /* Color de fondo del pie de página */
+  color: #ffffff; /* Color del texto del pie de página */
+  text-align: center; /* Alineación del texto en el pie de página */
+  padding: 20px 0; /* Espaciado interior del pie de página */
+}
+
+.footer-content {
+  max-width: 1200px; /* Anchura máxima del contenido del pie de página */
+  margin: 0 auto; /* Centrar el contenido del pie de página */
+  color: #ffffff; /* Color del texto del contenido del pie de página */
+}
+
+
+
+
+  /*David Rey*/
